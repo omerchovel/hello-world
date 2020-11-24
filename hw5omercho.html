@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS HW5 by omercho</title>
+        <h1>HW5 by omer chovel</h1>
+        <Img id="yesorno" src = "HW5YES.png">
+    </head>
+
+    <body>
+        <p id="P1"></p>
+        <script>
+            document.getElementById("P1").innerHTML = "Mission 5.2";
+        </script>
+
+
+        <p id="P2">mission 5.3</p>
+        
+        <script>
+            function mis3 (a,b){
+                return a+b+0.3;
+            }
+            document.getElementById("P2").innerHTML = mis3(2,3);
+        </script>
+
+        <p id="P3">nothing</p>
+        <button type="button"; onclick=mis4()>Change Text mission 5.4</button>
+
+        <button type="button1"; onclick=Yes()>Change to Yes</button>
+        <button type="button2"; onclick=No()>Change to No</button>
+        
+
+
+
+        <script>function mis4(){
+            document.getElementById("P3").innerHTML = "Mission 5.4";
+        }
+        </script>
+    
+        <script> function Yes(){
+            document.getElementById("yesorno").src="HW5YES.png"
+        }
+        </script>
+    
+    <script> function No(){
+        document.getElementById("yesorno").src="HW5No.png"
+    }
+    </script>
+
+
+
+    </body>
+
+    
+
+
+
+
+</html>
