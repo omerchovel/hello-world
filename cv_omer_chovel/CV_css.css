@@ -1,6 +1,13 @@
-h1 {
-    background-color: cyan;
 
+
+.changeColor{
+    background-color:cyan;
+    color:black;
+}
+
+.changeColor:hover{
+    background-color: black;
+    color:white;
 }
 
 .grid-container {
@@ -8,7 +15,7 @@ h1 {
     grid-template-rows: 150px 340px 192px 60px 60px 200px 300px 800px;
     grid-gap: 0px;
     grid-template-columns: 800px 150px;
-    background-color: white;
+    background-color: seashell;
     padding: 30px;
     justify-content: center;
     
@@ -83,8 +90,3 @@ h1 {
     background-color: white;
 }
 
-<script>    
-    function mis4(){
-       document.getElementById("P3").innerHTML = "img src="like.PNG" alt="omer" width="200" height="200"";
-    }
-</script>
